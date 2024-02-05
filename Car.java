@@ -1,7 +1,24 @@
 public class Car {
-    public static void main(String[] args) {
-        System.out.println(1);
-        System.out.println(2);
-        System.out.println(3);
-    }
+   
+private int speed;
+
+private String name;
+
+public String getName() {
+    return name;
+}
+
+public void setName(String name) {
+    this.name = name;
+}
+
+public int getSpeed() {
+    return speed;
+}
+
+public void setSpeed(int speed) {
+    this.speed = speed;
+}
+
+
 }
